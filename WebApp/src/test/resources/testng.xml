@@ -1,0 +1,14 @@
+<suite name="Log In Sign Up Suite">
+    <test name="Positive Test">
+        <packages>
+            <package name="com.epam.ruzaliia_yakunina.java.lesson9.task9.testng.successful_scenarios"/>
+            <package name="com.epam.ruzaliia_yakunina.java.lesson9.task9.easymock"/>
+            <package name="com.epam.ruzaliia_yakunina.java.lesson9.task9.mockito"/>
+        </packages>
+    </test>
+    <test name=" Negative Test">
+        <packages>
+            <package name="com.epam.ruzaliia_yakunina.java.lesson9.task9.testng.fail_scenarios"/>
+        </packages>
+    </test>
+</suite>

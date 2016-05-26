@@ -1,0 +1,84 @@
+body{
+background-color: #EED0ED;
+}
+
+h1{
+text-align:center;
+font-family: Algerian, Arial Rounded MT Bold;
+color: #152885;
+font-weight:bold;
+font-size: 300%;
+}
+
+img{
+display: block;
+margin-bottom: 3%;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+input, p, select, #errors{
+font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+#errors{
+	color: red;
+}
+
+input, #gender{
+padding-left:1%;
+	margin-left: 25%;
+}
+
+button{
+	display: inline-block;
+	max-width: 40%;
+	min-height: 50px;
+	background-color: #426DF7;
+text-align:center;
+border-radius: 10px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-stretch: expanded;
+	padding:0% 0.2%;
+	margin-left:28%;
+	margin-bottom: 5%;
+}
+
+button:hover{
+background-color: #4AB7D2;	
+}
+
+button:active{
+background-color: #3363FF;	
+}
+
+#form{
+display: block;
+margin-left: 27%;
+width:40%;
+background-color: #D6FBFB;
+border-radius: 10px;
+padding: 5%;
+}
+
+#submit{
+margin-left: 40%;
+border-radius: 10px;
+background-color: #F786A1;
+padding: 1%;
+}
+
+#submit:hover{
+	background-color: #d26373;
+}
+
+#submit:active{
+	background-color: #ff3b4c;
+}
